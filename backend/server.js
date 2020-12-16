@@ -14,6 +14,12 @@ app.all("/", (req, res) => {
   res.send("API is working fine.");
 });
 app.use("/auth", require("./routes/auth"));
+app.use("/name", require("./routes/test"));
+app.use(
+  "/paper",
+  require("./middleware/verifyToken"),
+  require("./routes/ques_paper")
+);
 
 //listener
 const PORT = process.env.PORT;
