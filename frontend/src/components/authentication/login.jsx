@@ -53,8 +53,6 @@ class Login extends Component {
                         </ul>
                     </div>
                         </form>
-                    
-                 
                 </div>
                 <div className="col-md-6 login-form-2">
                     <h3>Signup</h3>
