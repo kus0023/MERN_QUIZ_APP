@@ -1,0 +1,165 @@
+.img-container{
+    width: 21em;
+    
+}
+
+.social-circle li a img {
+    background-attachment:#3B5998 ;
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff
+}
+
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i {
+    color: #fff
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    transform: rotate(360deg);
+    transition: all 0.2s
+}
+
+.social-circle i {
+    color: #fff;
+    transition: all 0.8s;
+    transition: all 0.8s
+}
+
+.login-form-1 h5{
+    text-align: center;
+    color: #0062cc;
+}
+
+
+.login-form-1 img{
+    height: 30px;
+    width: 30px;
+    padding: 0%;
+    margin: 0;
+    background-color: #fff;
+    outline: #fff;
+}
+
+.login-form-2 h5{
+    text-align: center;
+    color: #fff;
+}
+
+
+.login-form-2 img{
+    height: 30px;
+    width: 30px;
+    padding: 0%;
+    margin: 0;
+    background-color: #fff;
+    outline: #fff;
+}
+
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #0062cc;
+}
+.login-form-2{
+    padding: 5%;
+    background: #0062cc;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #1c7ce2;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color:#1c7ce2;
+    background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color:#1c7ce2;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-form-1 .btn-google {
+    color: white;
+    background-color: #ea4335
+}
+
+.login-form-1 .btn-facebook {
+    color: white;
+    background-color: #3b5998
+}
