@@ -149,7 +149,7 @@ class Login extends Component {
                 <input
                   id="register"
                   name="email"
-                  type="text"
+                  type="email"
                   className="form-control"
                   placeholder="Your Email "
                   onChange={this.onChange}
